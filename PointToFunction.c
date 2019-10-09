@@ -16,8 +16,8 @@ int main()
     void(*anonymV[2])(void);
 
     // STORE INSIDE DELEGATE ARRAY
-    anonymV[0] = &hola;
-    anonymV[1] = &mundo;
+    anonymV[0] = &hello;
+    anonymV[1] = &world;
 
     for (int i = 0; i < sizeof(anonymV); i++)
     {

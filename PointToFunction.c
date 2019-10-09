@@ -2,11 +2,11 @@
 #include "stdio.h"
 #include "ctype.h"
 
-void hola() {
+void hello() {
     printf("%s", "Hello ");
 }
 
-void mundo() {
+void world() {
     printf("%s", "World!");
 }
 
